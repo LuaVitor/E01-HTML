@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Estruturas de Repetição em C</title>
+    </head>
+    <body>
+        <h1>Estruturas de Repetição em C</h1>
+
+        <div style="float: left; text-align: justify; width: 25%;">
+            <h2>Teoria</h2>
+
+            <p>Ao programar podemos nos encontrar em diversas situações em que a repetição de tarefas seja
+                fundamental para o funcionamento de um código, como por exemplo pedir que o usuário escreva
+                os nomes de uma lista de 100 pessoas, uma por uma.</p>
+            <p>Digitar um "printf" e um "scanf" para cada 
+                uma dessas pessoas daria muito trabalho não? É para resolver problemas desse tipo que nós
+                temos as Estruturas de Repetição!</p>
+            <p>A maneira como essas estruturas funciona é bem simples. Assim como nas estruturas de condição,
+                aqui nós também precisamos estabelecer uma condição, mas nesse caso é para definir quando e 
+                quantas vezes nós desejamos repetir um certo trecho do código. </p>
+        </div>
+
+        <div style="float: left; text-align: justify; width: 25%; margin-left: 5%;">
+            <h2>Prática</h2>
+
+            <p>A condição de repetição também pode ser testada de duas formas diferentes, antes e depois da 
+                primeira execução da repetição. Ou seja, em um caso a repetição só se inicia caso a condição 
+                seja verdadeira desde sua primeira execução, e no outro a repetição sempre acontece pelo menos
+                uma vez independentemente da condição ser verdadeira ou falsa.</p>
+            <p>
+                Quando queremos testar a condição antes da primeira execução podemos utilizar as estruturas 
+                "While" e "For", e para testar a condição após a primeira execução utilizamos a estrurura "Do While". 
+                Também é possível aninhar essas estruturas, ou seja, podemos construir essas estruturas de repetição 
+                uma dentro da outra, como veremos no exemplo a seguir:</p>
+        </div>
+
+        <div style="float: left; text-align: justify; width: 30%; margin-left: 5%;">
+            <h2>Exemplos</h2>
+
+            <p style="margin-bottom: 10%;">while(condição){
+                código_a_ser_repetido;
+            }</p>
+
+            <p>while(numero1 >= numero2){</p>
+            <p>    numero1 = numero1 - 1;</p>
+            <p style="margin-bottom: 10%;">}</p>
+
+            <p>do{</p>
+                <p>    printf("Adivinhe o Número! \n");</p>
+                <p>    scanf("%d", &numero1);</p>
+                <p>while(numero1 != 69)}</p>
+        </div>
+
+    </body>
+</html>
